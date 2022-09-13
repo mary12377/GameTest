@@ -43,16 +43,19 @@
 
 ## :four_leaf_clover: Запуск из терминала
 Локальный запуск:
+
 ```
-gradle clean test
+gradle clean test -DdeviceHost=browserstack
 ```
 
 Удаленный запуск:
+
 ```
 clean
 test
-
+-DdeviceHost=browserstack
 ```
+
 
 ## :four_leaf_clover: Allure отчет
 - ### Главный экран отчета
