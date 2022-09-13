@@ -1,6 +1,6 @@
 # :four_leaf_clover:Проект по мобильной автоматизации Wildscapes:four_leaf_clover:
 <a id="anchor"></a>
-## <a target="_blank" href="https://doramalive.ru/">Сайт Wildscapes</a>
+## <a target="_blank" href="https://playrix.com/ru/games">Сайт Wildscapes</a>
 ![Wildscapes](images/Sc.jpeg)
 
 ## :four_leaf_clover: Содержание:
