@@ -15,7 +15,7 @@ public class GameMobileTests extends TestBase {
     @Test
     @DisplayName("Запускаем игру")
     void loadingTheGameTest() {
-        // switchTo().alert().accept();
+        switchTo().alert().accept();
         step("Запускаем игру и нажимаем на всех всплывающих окнах ОК ", () ->
                 $(AppiumBy.xpath("//android.widget.Button[@text='OK' and @index='0']")).click());
                 $(AppiumBy.xpath("//android.widget.Button[@text='OK' and @index='2']")).click();

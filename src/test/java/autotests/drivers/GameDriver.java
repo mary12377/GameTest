@@ -46,8 +46,9 @@ public class GameDriver implements WebDriverProvider {
     private File getApp() {
         // String appUrl = "https://apkpure.com/ru/homescapes-android/com.playrix.homescapes/download";
         // String appPath = "src/test/resources/apps/Homescapes_v5.6.3_apkpure.com.apk";
-        String appUrl = "https://apkpure.com/ru/wildscapes/com.playrix.zoo_m3.gplay/download";
-        String appPath = "src/test/resources/apps/Wildscapes_v2.3.1_apkpure.com.apk";
+        String appUrl = "https://apkpure.com/ru/merge-hotel-empire-design/" +
+                "puzzle.merge.hotel.empire/download/1010-APK-6b290053dab61422f77e78c0dd71dd3b?from=variants%2Fversion";
+        String appPath = "src/test/resources/apps/Merge Hotel Empire Design_v1.0.6_apkpure.com.apk";
 
         File app = new File(appPath);
         if (!app.exists()) {
